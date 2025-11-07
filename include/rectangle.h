@@ -26,7 +26,7 @@ public:
     virtual bool operator==(const Figure<T>& otherFig) const override;
     virtual bool operator!=(const Figure<T>& otherFig) const override;
     virtual bool checkValidity() const override;
-
+  
     ~Rectangle() = default;
 };
 

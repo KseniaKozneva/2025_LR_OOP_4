@@ -3,7 +3,7 @@
 
 #include "figure.h"
 #include <memory>
-
+ 
 template <Scalar T>
 class Square : public Figure<T> {
 private:

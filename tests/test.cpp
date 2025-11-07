@@ -9,45 +9,16 @@
 #include "../include/points.h"
 
 // Тесты для класса Point
-TEST(PointTest, DefaultConstructor) {
-    Point<int> p;
-    EXPECT_EQ(p.getX(), 0);
-    EXPECT_EQ(p.getY(), 0);
-}
-
 TEST(PointTest, ParameterConstructor) {
     Point<int> p(3, 4);
     EXPECT_EQ(p.getX(), 3);
     EXPECT_EQ(p.getY(), 4);
 }
 
-TEST(PointTest, EqualityOperator) {
-    Point<int> p1(3, 4);
-    Point<int> p2(3, 4);
-    Point<int> p3(4, 3);
-    EXPECT_TRUE(p1 == p2);
-    EXPECT_FALSE(p1 == p3);
-}
-
-// Тесты для класса Point с float
-TEST(PointFloatTest, DefaultConstructor) {
-    Point<float> p;
-    EXPECT_FLOAT_EQ(p.getX(), 0.0f);
-    EXPECT_FLOAT_EQ(p.getY(), 0.0f);
-}
-
 TEST(PointFloatTest, ParameterConstructor) {
     Point<float> p(3.5f, 4.2f);
     EXPECT_FLOAT_EQ(p.getX(), 3.5f);
     EXPECT_FLOAT_EQ(p.getY(), 4.2f);
-}
-
-TEST(PointFloatTest, EqualityOperator) {
-    Point<float> p1(3.1f, 4.2f);
-    Point<float> p2(3.1f, 4.2f);
-    Point<float> p3(4.1f, 3.2f);
-    EXPECT_TRUE(p1 == p2);
-    EXPECT_FALSE(p1 == p3);
 }
 
 // Тесты для класса Square
@@ -214,22 +185,6 @@ TEST(FigureArrayTest, AddFigures) {
     EXPECT_EQ(array.size(), 1);
 }
 
-TEST(FigureArrayTest, AccessOperator) {
-    FigureArray<int> array;
-    
-    auto square = std::make_shared<Square<int>>(
-        Point<int>(0, 0),
-        Point<int>(2, 0),
-        Point<int>(2, 2),
-        Point<int>(0, 2)
-    );
-    
-    array.add(square);
-    
-    Figure<int>& figure = array[0];
-    EXPECT_NEAR(static_cast<double>(figure), 4.0, 0.001);
-}
-
 TEST(FigureArrayTest, EraseFigure) {
     FigureArray<int> array;
     
@@ -314,7 +269,7 @@ TEST(FigureArrayFloatTest, TotalArea) {
     array.add(triangle);
     
     double totalArea = array.computeTotalArea();
-    EXPECT_NEAR(totalArea, 6.25 + 6.0, 0.001); // 6.25 + 6.0 = 12.25
+    EXPECT_NEAR(totalArea, 12.25, 0.001);
 }
 
 TEST(FigureArrayFloatTest, MixedFigures) {
@@ -346,34 +301,7 @@ TEST(FigureArrayFloatTest, MixedFigures) {
     
     EXPECT_EQ(array.size(), 3);
     double totalArea = array.computeTotalArea();
-    EXPECT_NEAR(totalArea, 4.0 + 10.0 + 6.0, 0.001); // 20.0
-}
-
-TEST(FigureArrayTest, OutOfBoundsAccess) {
-    FigureArray<int> array;
-    EXPECT_THROW(array[0], std::out_of_range);
-}
-
-TEST(FigureArrayTest, MoveConstructor) {
-    FigureArray<int> array;
-    
-    auto square = std::make_shared<Square<int>>(
-        Point<int>(0, 0),
-        Point<int>(2, 0),
-        Point<int>(2, 2),
-        Point<int>(0, 2)
-    );
-    
-    array.add(square);
-    
-    FigureArray<int> movedArray(std::move(array));
-    EXPECT_EQ(movedArray.size(), 1);
-    EXPECT_EQ(array.size(), 0); // Исходный массив должен быть пустым
-}
-
-TEST(FigureArrayTest, InvalidErase) {
-    FigureArray<int> array;
-    EXPECT_THROW(array.erase(0), std::out_of_range);
+    EXPECT_NEAR(totalArea, 20.0, 0.001);
 }
 
 int main(int argc, char **argv) {

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 #include "points.h"
-
+ 
 // Шаблонный абстрактный класс Figure
 template <Scalar T>
 class Figure {

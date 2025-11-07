@@ -109,6 +109,6 @@ public:
         }
         return total;
     }
-};
+}; 
 
 #endif
