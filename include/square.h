@@ -8,7 +8,7 @@ template <Scalar T>
 class Square : public Figure<T> {
 private:
     std::unique_ptr<Point<T>> p1, p2, p3, p4;
-  
+   
 public:
     Square();
     Square(Point<T> a, Point<T> b, Point<T> c, Point<T> d);

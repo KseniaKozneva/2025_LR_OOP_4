@@ -29,7 +29,7 @@ public:
  
     ~Triangle() = default;
 };
-  
+   
 // Конструктор по умолчанию
 template <Scalar T>
 Triangle<T>::Triangle() 

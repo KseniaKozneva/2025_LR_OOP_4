@@ -14,7 +14,7 @@ TEST(PointTest, ParameterConstructor) {
     EXPECT_EQ(p.getX(), 3);
     EXPECT_EQ(p.getY(), 4);
 }
- 
+  
 TEST(PointFloatTest, ParameterConstructor) {
     Point<float> p(3.5f, 4.2f);
     EXPECT_FLOAT_EQ(p.getX(), 3.5f);

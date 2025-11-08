@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/FiguresTests[1]_tests.cmake")
-  include("C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/FiguresTests[1]_tests.cmake")
-else()
-  add_test(FiguresTests_NOT_BUILT FiguresTests_NOT_BUILT)
-endif()

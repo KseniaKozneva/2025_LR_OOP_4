@@ -8,7 +8,7 @@
 #include <algorithm>
 #include <cassert>
 #include "figure.h"
-  
+   
 // Шаблонный класс FigureArray
 template <typename T>
 class FigureArray {
