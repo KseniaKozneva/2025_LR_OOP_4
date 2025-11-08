@@ -1,8 +1,3 @@
-# Папки сборки
-build/
-/build/
-/out/
-
 # Файлы VS Code
 .vscode/
  

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\e2d70b92db0a5acad750379f37e0d555\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\a38a7cfbd70ff9a11ba6ac9e74856740\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\83601cd6db7b8403b279ee8df9ac7a80\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\Desktop\mai_lab_git\2025_LR_OOP_4\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5E047192-4D50-321C-B332-FE04F85117E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

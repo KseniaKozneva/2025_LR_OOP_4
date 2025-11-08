@@ -29,7 +29,7 @@ public:
   
     ~Rectangle() = default;
 };
-
+ 
 // Конструктор по умолчанию
 template <Scalar T>
 Rectangle<T>::Rectangle() 

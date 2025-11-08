@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\MAI_LAB_GIT\2025_LR_OOP_4\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-subbuild -BC:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-subbuild --check-stamp-file C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

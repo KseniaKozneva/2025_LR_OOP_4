@@ -1,0 +1,15 @@
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/CMakeFiles/FiguresApp.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/CMakeFiles/FiguresTests.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/CMakeFiles/INSTALL.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/CMakeFiles/INSTALL.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googletest/CMakeFiles/INSTALL.dir
+C:/Users/Administrator/Desktop/mai_lab_git/2025_LR_OOP_4/build/_deps/googletest-build/googletest/CMakeFiles/ALL_BUILD.dir

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include <concepts>
-
+ 
 // Константа для сравнения чисел с плавающей точкой
 const double EPS = 1e-6;
 inline const double PI = 3.14159265358979323846; 
