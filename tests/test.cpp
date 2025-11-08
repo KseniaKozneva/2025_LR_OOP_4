@@ -7,7 +7,7 @@
 #include "../include/triangle.h"
 #include "../include/array.h"
 #include "../include/points.h"
-
+ 
 // Тесты для класса Point
 TEST(PointTest, ParameterConstructor) {
     Point<int> p(3, 4);
